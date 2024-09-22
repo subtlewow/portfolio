@@ -1,0 +1,24 @@
+---
+import Education from './Education.astro'
+import Work from './Work.astro'
+import Projects from './Projects.astro'
+import LinkedInLogo from './logos/LinkedInLogo.astro'
+import InstagramLogo from './logos/InstagramLogo.astro'
+import GithubLogo from './logos/GithubLogo.astro'
+---
+
+<div class="font-inter-tight">
+  <h1 class="p-12 py-20 text-3xl leading-relaxed">
+    Welcome! I'm <span class="">Marlon</span> 👋 <br> <span class="bg-red-400/50">Graduate</span> Software Engineer from New Zealand.<br> Currently, pursuing a <a href="https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-data-science-mdats.html" class="underline">Masters in Data Science</a>.
+    <div class="flex pt-4 space-x-6 opacity-30">
+      <LinkedInLogo />
+      <InstagramLogo />
+      <GithubLogo />
+    </div>
+  </h1>
+
+
+  <Education />
+  <Work />
+  <Projects />
+</div>
